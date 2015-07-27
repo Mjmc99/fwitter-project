@@ -3,6 +3,13 @@
 <p><%= user.name %></p>
 <% end %>
 
+<h3>Sign In</h3>
+<form action="sign-in" method="POST">
+  <p>Name: <input type="text" name="name"></p>
+  <p>Email: <input type="text" name="email"></p>
+  <input type="submit" class="btn btn-primary">
+</form>
+
 <h3>Sign up!</h3>
 <form action="/sign-up" method="POST">
   <p>Name: <input type="text" name="name"></p>
